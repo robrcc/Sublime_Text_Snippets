@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+${1:.clearfix}:before, ${1:.clearfix}:after { content: " "; display: table; }
+${1:.clearfix}:after { clear: both; }
+]]></content>
+	<tabTrigger>cfix</tabTrigger>
+	<description>Minimal clearfix - CSS</description>
+	<scope>source.css</scope>
+</snippet>

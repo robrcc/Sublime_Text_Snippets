@@ -1,0 +1,26 @@
+<snippet>
+	<content><![CDATA[
+${1:
+<!-- Unordered (bulleted) lists -->
+<ul>
+	<li>peas</li>
+	<li>carrots</li>
+	<li>gallon of milk</li>
+</ul>
+
+<!-- Ordered (numbered) list -->
+<ol>
+	<li>take exit 20 to wherever</li>
+	<li>drive 32 miles</li>
+	<li>turn left</li>
+</ol>
+<!-- 
+REMEMBER: List items should always be in <li> tags. These automatically
+create bullets and numbers.
+ -->
+}
+]]></content>
+	<tabTrigger>hint-list</tabTrigger>
+	<description>HTML example of hyperlink (a) tags</description>
+	<scope>text.html</scope>
+</snippet>

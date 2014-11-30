@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+\$("$1").click(function(event)
+{
+	$0
+});
+
+]]></content>
+	<tabTrigger>jqclk</tabTrigger>
+	<description>JQuery - create .click()</description>
+	<scope>source.js</scope>
+</snippet>

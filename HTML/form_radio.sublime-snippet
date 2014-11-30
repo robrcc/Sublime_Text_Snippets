@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+<label for="$1">
+	<input type="radio" name="$2" id="$1" value="$3"> ${4:text}
+</label>
+
+$0
+]]></content>
+	<tabTrigger>frb</tabTrigger>
+	<description>Form radio button with label</description>
+	<scope>text.html</scope>
+</snippet>

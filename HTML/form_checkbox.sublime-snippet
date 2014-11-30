@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+<label for="$1">
+	<input type="checkbox" name="${2:$1}" id="$1" value="$3"> ${4:text}
+</label>
+
+$0
+]]></content>
+	<tabTrigger>fcb</tabTrigger>
+	<description>Form checkbox with label</description>
+	<scope>text.html</scope>
+</snippet>

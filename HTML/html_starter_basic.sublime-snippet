@@ -1,0 +1,28 @@
+<snippet>
+	<content><![CDATA[
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>${1:Page Title}</title>
+	${2:<link rel="stylesheet" href="css/bootstrap.min.css">
+	}<link rel="stylesheet" href="css/${3:styles.css}">
+</head>
+<body>
+	
+	<div class="container" id="wrapper">
+		
+		$0
+
+	</div>
+
+</body>
+</html>
+]]></content>
+	<tabTrigger>starter</tabTrigger>
+	<description>Starter page with optional Bootstrap</description>
+	<scope>text.html</scope>
+</snippet>

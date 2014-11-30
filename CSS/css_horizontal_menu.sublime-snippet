@@ -1,0 +1,33 @@
+<snippet>
+	<content>
+<![CDATA[
+
+ul.${1:menu}
+{
+	margin: 0;
+	padding: 0;
+	list-style-stype: none;
+}
+
+ul.${1} li
+{
+	display: inline-block;
+	margin-${2:left}: 1em;
+}
+
+ul.${1} a
+{
+	color: ${4:#619FDE};
+	text-decoration: none;
+}
+
+ul.${1} a:hover
+{
+	
+}
+
+]]></content>
+	<tabTrigger>hmencss</tabTrigger>
+	<description>CSS - horizontal ul menu</description>
+	<scope>source.css</scope>
+</snippet>

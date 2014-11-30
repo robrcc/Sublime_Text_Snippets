@@ -1,0 +1,40 @@
+<snippet>
+	<content><![CDATA[
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>${1:Page Title}</title>
+
+	<link rel="stylesheet" href="css/bootstrap.min.css" >
+	<link rel="stylesheet" href="css/${2:styles.css}">
+	
+	<!--[if lt IE 9]>
+	<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+	<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+	<![endif]-->
+</head>
+<body>
+
+	<div class="container">
+		
+		$0
+
+	</div>
+
+
+	<!-- jQuery - CDN with local fall-back, linked file for custom scripts -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<script>if( !window.JQuery ) { document.write('<script src=js/jquery.min.js><\/script>'); }</script>
+	<script src="js/bootstrap.min.js"></script>
+	${4:<script src="js/${3:custom.jquery.js}"></script>}
+</body>
+</html>
+]]></content>	
+	<tabTrigger>starterbs</tabTrigger>
+	<description>HTML - starter page with Bootstrap and JQuery</description>
+	<scope>text.html</scope>
+</snippet>

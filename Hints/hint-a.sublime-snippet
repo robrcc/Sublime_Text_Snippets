@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+${1:<!-- Hyperlinks to other web sites require http:// -->
+<a href="http://www.example.com">Go to my website</a>
+
+<!-- Hyperlinks to your pages do not -->
+<a href="index.html">home</a>}
+]]></content>
+	<tabTrigger>hint-a</tabTrigger>
+	<description>HTML example of hyperlink (a) tags</description>
+	<scope>text.html</scope>
+</snippet>

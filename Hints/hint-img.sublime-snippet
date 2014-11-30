@@ -1,0 +1,16 @@
+<snippet>
+	<content><![CDATA[
+${1:<!-- Images that are purely decorative should have an empty alt attribute -->
+<img src="divider.jpg" alt=""/>
+
+<!-- Images need alt text if they are important to understanding the page. -->
+<img src="bobcat.jpg" alt="A ferocious bobcat">
+
+<!-- If an image is located in the images directory, you must be explicit -->
+<img src="images/bobcat.jpg" alt="A ferocious bobcat">
+}
+]]></content>
+	<tabTrigger>hint-img</tabTrigger>
+	<description>HTML example of hyperlink (a) tags</description>
+	<scope>text.html</scope>
+</snippet>

@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+@import url(http://fonts.googleapis.com/css?family=${1:name+of+font;});
+]]></content>
+	<tabTrigger>gfont</tabTrigger>
+	<description>CSS - @import Google web font</description>
+	<scope>source.css</scope>
+</snippet>

@@ -1,0 +1,11 @@
+<snippet>
+	<content>
+<![CDATA[
+html { box-sizing: border-box; }
+*, *:before, *:after { box-sizing: inherit; }
+
+]]></content>
+	<tabTrigger>qboxs</tabTrigger>
+	<description>CSS - border-box by default</description>
+	<scope>source.css</scope>
+</snippet>

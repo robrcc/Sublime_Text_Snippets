@@ -1,0 +1,14 @@
+<snippet>
+	<content><![CDATA[
+<div class="span4">
+
+	$1
+
+</div>
+
+$0
+]]></content>
+	<tabTrigger>;;4</tabTrigger>
+	<description>Bootstrap 2 div with span4 class</description>
+	<scope>text.html</scope>
+</snippet>

@@ -1,0 +1,20 @@
+<snippet>
+	<content><![CDATA[
+${1:
+<!-- IN YOUR CSS FILE, create a class using a . and a unique name -->
+.highlight
+\{
+	background-color: yellow;
+\}
+
+<!-- IN YOUR HTML FILE, add a class using the class attribute -->
+<p class="highlight">This uses a class called hilight</p>
+
+<!-- REMEMBER: Don't use the . when using class="" -->
+
+}
+]]></content>
+	<tabTrigger>hint-class</tabTrigger>
+	<description>HTML example of CSS classes</description>
+	<scope>text.html</scope>
+</snippet>
