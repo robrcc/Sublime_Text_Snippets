@@ -1,0 +1,14 @@
+<snippet>
+	<content><![CDATA[
+<div class="col-md-4">
+
+	$1
+
+</div>
+
+$0
+]]></content>
+	<tabTrigger>;;4</tabTrigger>
+	<description>Bootstrap 3 div with col-md-4 class</description>
+	<scope>text.html</scope>
+</snippet>
